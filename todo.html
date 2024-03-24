@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="todo.css" />
+    <link href=https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css
+    rel=stylesheet>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="flex items-center drop-shadow-lg">
+      <div class="box justify-center">
+        <div>
+          <h1 class="flex justify-center text-slate-900 font-bold m-4">
+            My To-Do List
+          </h1>
+        </div>
+        <div class="border-b border-teal-500 m-5 w-50% py-1">
+          <input
+            id="input"
+            class="appearance-none border-spacing-1 bg-transparent m-3 w-full text-gray-700 mr-2 px-2 leading-tight focus:outline-none"
+            type="text"
+            placeholder="Add your Task"
+            aria-label="Full name"
+          />
+        </div>
+        <div>
+          <button
+            class="btn bg-blue-500 mx-4 my-4 hover:bg-blue-700 hover:shadow-2xl text-white font-bold py-2 px-4 rounded"
+            onclick="newElement()"
+          >
+            Add Task
+          </button>
+        </div>
+
+        <div>
+          <ul id="myUL" class="task m-6">
+            <li class="">hello welcome</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+  </body>
+</html>
+<script src="./styles/todo.js"></script>
