@@ -4,12 +4,12 @@
 
 
 body {
-  background: rgb(21, 16, 113);
+  background: rgb(30, 76, 104);
   background: linear-gradient(
     90deg,
-    rgba(21, 36, 113, 13) 0%,
-    rgba(41, 41, 190, 1) 53%,
-    rgb(36, 211, 247) 100%
+    rgb(14, 18, 122) 0%,
+    rgb(88, 41, 190) 53%,
+    rgb(135, 151, 255) 100%
   );
 }
 .box {
@@ -35,7 +35,7 @@ position: relative;
 }
 
 .close:hover {
-  background-color: #ff2ef5;
+  background-color: #312eff;
   color: white;
   border-radius: 5px;
 }
@@ -49,6 +49,7 @@ ul {
 }
 ul li:nth-child(odd) {
   background: #f9f9f9;
+ 
 }
 ul li {
   margin: 2px;
@@ -56,8 +57,9 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #e9c6ff;
+  background: #ced2d6;
   border-radius: 10px;
+  border: 0.1px solid  rgb(117, 116, 116);
   font-size: 18px;
   transition: 0.2s;
   -webkit-user-select: none;

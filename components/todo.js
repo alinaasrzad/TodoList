@@ -1,6 +1,4 @@
-
-
-var myNodelist = document.getElementsByTagName("li");
+let myNodelist = document.getElementsByTagName("li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
@@ -13,17 +11,17 @@ for (i = 0; i < myNodelist.length; i++) {
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
+  close[i].onclick = function () {
     var div = this.parentElement;
     div.style.display = "none";
-  }
+  };
 }
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("input").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
-  if (inputValue === '') {
+  if (inputValue === "") {
     alert("You must write something!");
   } else {
     document.getElementById("myUL").appendChild(li);
@@ -37,9 +35,21 @@ function newElement() {
   li.appendChild(span);
 
   for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
+    close[i].onclick = function () {
       var div = this.parentElement;
       div.style.display = "none";
-    }
+    };
   }
 }
+
+// let newElement = '<div id="new-element">...</div>';
+// document.getElementById('button').addEventListener('click', function(event) {
+//   document.body.insertAdjacentHTML('beforeend', newElement);
+// })
+// document.addEventListener('click', function (event) {
+// let node = document.getElementById('new-element');
+// if (node && !node.contains(event.target)) {
+//   document.getElementById('new-element').remove();
+
+// }}
+// )
