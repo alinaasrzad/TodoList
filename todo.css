@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background: rgb(30, 76, 104);
   background: linear-gradient(
@@ -13,24 +12,24 @@ body {
   );
 }
 .box {
-  margin-top: 120px;
+  width: 500px;
+  height: auto;
+  margin: auto auto;
   background-color: aliceblue;
   border-radius: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 30rem;
+ 
+  
 }
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
-.task{
+.task {
   justify-items: baseline;
-  font-family:' Tahoma, Geneva, Verdana, sans-serif';
+  font-family: " Tahoma, Geneva, Verdana, sans-serif";
 }
-.close{
-position: relative;
+.close {
+  position: relative;
   padding: 12px 18px 12px 18px;
 }
 
@@ -39,7 +38,7 @@ position: relative;
   color: white;
   border-radius: 5px;
 }
-.myUL{
+.myUL {
   margin-top: 20px;
 }
 
@@ -49,21 +48,23 @@ ul {
 }
 ul li:nth-child(odd) {
   background: #f9f9f9;
- 
 }
 ul li {
   margin: 2px;
-  cursor: pointer;
+
   position: relative;
+  box-shadow: transparent 2px 2px rgb(134, 134, 134);
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #ced2d6;
+  background: #bddeff;
   border-radius: 10px;
-  border: 0.1px solid  rgb(117, 116, 116);
   font-size: 18px;
   transition: 0.2s;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.btnAll {
+
 }
