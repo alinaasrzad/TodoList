@@ -14,7 +14,8 @@ body {
 .box {
   width: 500px;
   height: auto;
-  margin: auto auto;
+  margin-top: 30px;
+  margin: auto;
   background-color: aliceblue;
   border-radius: 10px;
   display: block;

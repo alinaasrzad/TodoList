@@ -41,7 +41,11 @@ function newElement() {
     };
   }
 }
-
+// function deleteAll(){
+//   var MyTag;
+//   MyTag = document.getElementById("delete");
+//   MyTag.remove();
+//  }
 // let newElement = '<div id="new-element">...</div>';
 // document.getElementById('button').addEventListener('click', function(event) {
 //   document.body.insertAdjacentHTML('beforeend', newElement);
@@ -56,8 +60,20 @@ function newElement() {
 // document.getElementById("delete").addEventListener("click", function(e) {
 // 	// e.target is the clicked element!
 // 	// If it was a list item
-// 	if(e.target && e.target.nodeName == "LI") {
+// 	if(e.target && e.target.nodeName == "li") {
 // 		// List item found!  Output the ID!
 // 		console.log("List item ", e.target.id.replace("post-", ""), " was clicked!");
 // 	}
 // });
+
+// function deleteAll() {
+//   taskList.innerHTML = '';
+//   Faster
+//   while(taskList.firstChild) {
+//     taskList.removeChild(taskList.firstChild);
+//   }
+
+// }
+
+document.getElementById("delete").innerHTML="Delete All"
+var x = document.querySelectorAll('ul')
